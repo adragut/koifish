@@ -59,7 +59,7 @@ export default function Store({ products }) {
 }
 
 export async function getServerSideProps() {
-  const response = await axios.get('http://localhost:5000/api/products');
+  const response = await axios.get('http://localhost:5001/api/products');
   const products = response.data;
   return { props: { products } };
 }
