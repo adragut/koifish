@@ -9,6 +9,8 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: '#1E90FF', // Dodger Blue
+        secondary: '#FFD700', // Gold
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
